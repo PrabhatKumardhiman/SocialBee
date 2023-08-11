@@ -4,7 +4,7 @@
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 75%) 0px 0px 12px -3px;
     background-color: rgb(255, 255, 255);
-    max-width: 580px;
+    max-width: 570px;
 }
 
 .postWrapper{
@@ -59,7 +59,7 @@
 }
 
 .postImg{
-    max-width: 580px;
+    max-width: 570px;
     max-height: 500px;
     object-fit: contain;
 

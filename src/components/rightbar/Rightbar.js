@@ -11,7 +11,6 @@ const Rightbar = (props) => {
                 </div>
                 <hr className='rightHr' />
                 <div className="friendsOnlineComponent">
-
                     {props.data.map((e) => {
                         return <div className="friendOnline">
                             <div className="friendImgContainer">
@@ -21,9 +20,7 @@ const Rightbar = (props) => {
                             <span className="friendName"> {e.user.first_name? e.user.first_name: "" +""+ e.user.last_name ? e.user.last_name : ""}</span>
                         </div>
                     })}
-
                 </div>
-
             </div>
         </div>
     )

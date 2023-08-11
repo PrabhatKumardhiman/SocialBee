@@ -1,8 +1,20 @@
 import './Post.css'
 import { UilThumbsUp, UilHeart, UilChat, UilEllipsisH, UilTimes } from '@iconscout/react-unicons'
+import React, {useState} from 'react'
 
 const Post = (props) => {
     const { profileImg, userName, date, caption, img, likes } = props
+    
+    const [likeCount, setLikeCount] = useState(likes)
+    const handleLike = () => {
+        if (likes === likeCount){
+            setLikeCount(likeCount+1)
+        }
+        else if (likeCount >= likes){
+            setLikeCount(likeCount-1)
+        }  
+        console.log("clicked")
+    }
     return (
         <div className="postContainer">
             <div className="postWrapper">
@@ -28,13 +40,13 @@ const Post = (props) => {
                 <div className="postBottom">
                     <div className="like">
                         <span className="likeIcons">
-                            <UilThumbsUp style={{ color: "blue", marginRight: "0.5rem" }} />
+                            <UilThumbsUp style={{ color: "blue", marginRight: "0.5rem" }} onClick = {handleLike}/>
                             <UilHeart style={{ color: "red", marginRight: "0.5rem" }} />
                         </span>
-                        <span className="likeCounter">{likes} Peoples liked it.</span>
+                        <span className="likeCounter">{likeCount} Peoples liked it.</span>
                     </div>
                     <div className="comments">
-                        <span className="commentCounter">{(Math.random() * likes).toFixed()}</span>
+                        <span className="commentCounter">{likeCount}</span>
                         <UilChat className="commentIcon" />
                     </div>
                 </div>
