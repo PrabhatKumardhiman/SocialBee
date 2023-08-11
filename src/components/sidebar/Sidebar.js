@@ -50,7 +50,7 @@ const Sidebar = (props) => {
                 {props.data.map((e) => { // eslint-disable-next-line
                     return (<li className= "sidebarFriend">
                         <img className="sidebarFriendImg" src={e.user.profile_image.small} alt="" />
-                        <span className="sidebarFriendName">{e.user.first_name? e.user.first_name: "" +""+ e.user.last_name ? e.user.last_name : ""}</span>
+                        <span className="sidebarFriendName">{e.user.first_name +""+ e.user.last_name}</span>
                         </li>
                 )
                      })}

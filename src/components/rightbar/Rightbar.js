@@ -17,7 +17,7 @@ const Rightbar = (props) => {
                                 <img src={e.user.profile_image.small} alt="friend online" className="friendImg" style={{ width: "2rem", height: "2rem" }} />
                                 <span className="greenDot"></span>
                             </div>
-                            <span className="friendName"> {e.user.first_name? e.user.first_name: "" +""+ e.user.last_name ? e.user.last_name : ""}</span>
+                            <span className="friendName"> {e.user.first_name+""+ e.user.last_name}</span>
                         </div>
                     })}
                 </div>
