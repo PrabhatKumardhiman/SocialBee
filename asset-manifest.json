@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SocialBee/static/css/main.5c295e62.css",
+    "main.js": "/SocialBee/static/js/main.c9798ae9.js",
+    "index.html": "/SocialBee/index.html",
+    "main.5c295e62.css.map": "/SocialBee/static/css/main.5c295e62.css.map",
+    "main.c9798ae9.js.map": "/SocialBee/static/js/main.c9798ae9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c295e62.css",
+    "static/js/main.c9798ae9.js"
+  ]
+}
