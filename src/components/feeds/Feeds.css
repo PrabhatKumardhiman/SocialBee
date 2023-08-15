@@ -1,14 +1,4 @@
 .feedsContainer{
     flex: 5.5;
-    height: 100vh;
-    overflow-y: scroll
-}
-
-::-webkit-scrollbar{
-    display: none;
-}
-
-.feedsWrapper{
     padding: 1.5rem;
 }
-

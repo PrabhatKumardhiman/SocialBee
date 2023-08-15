@@ -1,7 +1,7 @@
 import './App.css';
-// import Home from './pages/home/Home';
+import Home from './pages/home/Home';
 import React, { useState, useEffect } from 'react';
-import Profile from './pages/profile/Profile';
+// import Profile from './pages/profile/Profile';
 
 function App() {
 
@@ -20,8 +20,7 @@ function App() {
   return (data &&
     <>
     {console.log(data)}
-      <Profile data = {data}/>
-      
+      <Home data = {data}/>
     </>
   )
 }
