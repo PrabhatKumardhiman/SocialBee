@@ -65,8 +65,3 @@
 .profileCenter{
     display: flex;
 }
-.feed{
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-}

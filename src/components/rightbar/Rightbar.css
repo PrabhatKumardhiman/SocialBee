@@ -48,3 +48,42 @@
     border-radius: 50%;
     position: absolute;
 }
+
+.rightbarUserDetails{
+    margin-bottom: 1rem;
+}
+
+.rightbarUserinfo{
+    margin-bottom: 1rem;
+}
+
+.rightbarUserinfoItem{
+    margin-bottom: 0.5rem;
+}
+.rightbarUserinfoitemKey{
+    font-weight: 500;
+}
+
+.rightbarUserinfoValue{
+    font-weight: 300;
+}
+.rightbarUserFriends{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbarUserFriend{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    align-items: center;
+}
+
+.friendsImage{
+    width: 7rem;
+    height: 7rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 13px;
+}

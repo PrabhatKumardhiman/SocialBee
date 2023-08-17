@@ -22,7 +22,7 @@ const Profile = (props) => {
         <div className="feed">
         <Feeds data={props.data} />
         </div>
-        <Rightbar data={props.data} />
+        <Rightbar data={props.data} profile = {"profile"}/>
       </div>
     </div>
 
