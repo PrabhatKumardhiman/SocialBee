@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SocialBee/static/css/main.5c295e62.css",
-    "main.js": "/SocialBee/static/js/main.c9798ae9.js",
+    "main.css": "/SocialBee/static/css/main.37f26157.css",
+    "main.js": "/SocialBee/static/js/main.6b009e34.js",
     "index.html": "/SocialBee/index.html",
-    "main.5c295e62.css.map": "/SocialBee/static/css/main.5c295e62.css.map",
-    "main.c9798ae9.js.map": "/SocialBee/static/js/main.c9798ae9.js.map"
+    "main.37f26157.css.map": "/SocialBee/static/css/main.37f26157.css.map",
+    "main.6b009e34.js.map": "/SocialBee/static/js/main.6b009e34.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c295e62.css",
-    "static/js/main.c9798ae9.js"
+    "static/css/main.37f26157.css",
+    "static/js/main.6b009e34.js"
   ]
 }
